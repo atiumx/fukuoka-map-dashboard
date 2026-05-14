@@ -1,0 +1,211 @@
+[
+  {
+    "id": "r00001",
+    "placeid": "p00001",
+    "placename": null,
+    "source": "IG",
+    "date": null,
+    "overallrating": 4.1,
+    "googlemapsurl": "https://maps.google.com/?q=一蘭拉麵+博多本店",
+    "reviewtext": "24小時營業，豚骨拉麵名店，建議避開正午高峰",
+    "questions": []
+  },
+  {
+    "id": "r00002",
+    "placeid": "p00002",
+    "placename": null,
+    "source": "博客",
+    "date": null,
+    "overallrating": 4.0,
+    "googlemapsurl": "https://maps.google.com/?q=博多屋台",
+    "reviewtext": "博多屋台文化體驗，必試明太子料理",
+    "questions": []
+  },
+  {
+    "id": "r00003",
+    "placeid": "p00003",
+    "placename": null,
+    "source": "FB",
+    "date": null,
+    "overallrating": 4.2,
+    "googlemapsurl": "https://maps.google.com/?q=博多居酒屋",
+    "reviewtext": "新鮮玄界灘海鮮，推薦烤牡蠣同生魚片",
+    "questions": []
+  },
+  {
+    "id": "r00004",
+    "placeid": "p00004",
+    "placename": null,
+    "source": "IG",
+    "date": null,
+    "overallrating": 4.0,
+    "googlemapsurl": "https://maps.google.com/?q=元祖長濱屋",
+    "reviewtext": "長濱豚骨拉麵發祥地，超嫩叉燒",
+    "questions": []
+  },
+  {
+    "id": "r00005",
+    "placeid": "p00005",
+    "placename": null,
+    "source": "博客",
+    "date": null,
+    "overallrating": 4.4,
+    "googlemapsurl": "https://maps.google.com/?q=博多天婦羅",
+    "reviewtext": "立食天婦羅，炸穴子魚必試，性價比極高",
+    "questions": []
+  },
+  {
+    "id": "r00006",
+    "placeid": "p00006",
+    "placename": null,
+    "source": "IG",
+    "date": null,
+    "overallrating": 4.3,
+    "googlemapsurl": "https://maps.google.com/?q=福岡精品咖啡",
+    "reviewtext": "小眾精品咖啡店，拿鐵藝術感強",
+    "questions": []
+  },
+  {
+    "id": "r00007",
+    "placeid": "p00007",
+    "placename": null,
+    "source": "博客",
+    "date": null,
+    "overallrating": 4.1,
+    "googlemapsurl": "https://maps.google.com/?q=JR九州酒店博多",
+    "reviewtext": "博多站直通，交通便利",
+    "questions": []
+  },
+  {
+    "id": "r00008",
+    "placeid": "p00008",
+    "placename": null,
+    "source": "FB",
+    "date": null,
+    "overallrating": 4.2,
+    "googlemapsurl": "https://maps.google.com/?q=博多壽司",
+    "reviewtext": "玄界灘直送魚獲，午市超值套餐",
+    "questions": []
+  },
+  {
+    "id": "r00009",
+    "placeid": "p20001",
+    "placename": null,
+    "source": "自己",
+    "date": null,
+    "overallrating": null,
+    "googlemapsurl": "https://www.google.com/maps/place/365/@32.752969,129.872703,17z",
+    "reviewtext": "長崎站前老牌喫茶店，早上 7 點開門，午餐預算約 〜¥999。",
+    "questions": []
+  },
+  {
+    "id": "r00010",
+    "placeid": "p20002",
+    "placename": null,
+    "source": "自己",
+    "date": null,
+    "overallrating": null,
+    "googlemapsurl": "https://www.google.com/maps/place/小倉城/@33.8844357,130.8742541,17z",
+    "reviewtext": "北九州市象徵城堡，福岡縣內唯一保留天守閣的城，作為觀光景點相當有名。",
+    "questions": []
+  },
+  {
+    "id": "r00011",
+    "placeid": "p20003",
+    "placename": null,
+    "source": "自己",
+    "date": null,
+    "overallrating": null,
+    "googlemapsurl": "https://www.google.com/maps/place/ママン·ガトー(%E6%A0%AA)+ノスドール/@32.746585,129.8808539,17z",
+    "reviewtext": "長崎燒菓子專門店，前身為老牌洋菓子店「ノスドール」，主打罐裝蛋糕與燒菓子。",
+    "questions": []
+  },
+  {
+    "id": "r00012",
+    "placeid": "p20004",
+    "placename": null,
+    "source": "自己",
+    "date": null,
+    "overallrating": null,
+    "googlemapsurl": "https://www.google.com/maps/place/軍艦島デジタル博物館/@32.7360433,129.869209,17z",
+    "reviewtext": "透過 VR、4K 立體劇場等數位內容還原軍艦島生活與禁入區域，是長崎市松が枝町的室內觀光點。",
+    "questions": []
+  },
+  {
+    "id": "r00013",
+    "placeid": "p20005",
+    "placename": null,
+    "source": "自己",
+    "date": null,
+    "overallrating": null,
+    "googlemapsurl": "https://www.google.com/maps/place/肉屋肉一+博多店/@33.5862991,130.4218915,17z",
+    "reviewtext": "博多站南側人氣炭火燒肉店，主打九州產黑毛和牛，價格中高，晚市建議預約。",
+    "questions": []
+  },
+  {
+    "id": "r00014",
+    "placeid": "p10001",
+    "placename": null,
+    "source": "IG",
+    "date": null,
+    "overallrating": 4.1,
+    "googlemapsurl": "https://maps.google.com/?q=HEART+BREAD+ANTIQUE+福岡天神店",
+    "reviewtext": "天神人氣烘焙店，主打麵包與甜點。近天神駅。",
+    "questions": []
+  },
+  {
+    "id": "r00015",
+    "placeid": "p10002",
+    "placename": null,
+    "source": "IG",
+    "date": null,
+    "overallrating": 4.3,
+    "googlemapsurl": "https://maps.google.com/?q=石村萬盛堂+本店+福岡",
+    "reviewtext": "中洲川端名物和菓子店，招牌鶴乃子，適合當手信。近中洲川端駅。",
+    "questions": []
+  },
+  {
+    "id": "r00016",
+    "placeid": "p10003",
+    "placename": null,
+    "source": "IG",
+    "date": null,
+    "overallrating": 4.2,
+    "googlemapsurl": "https://maps.google.com/?q=麺屋+いしヰ+福岡",
+    "reviewtext": "博多站步行圈，招牌明太烏冬。",
+    "questions": []
+  },
+  {
+    "id": "r00017",
+    "placeid": "p10004",
+    "placename": null,
+    "source": "IG",
+    "date": null,
+    "overallrating": 4.1,
+    "googlemapsurl": "https://maps.google.com/?q=麺や兼虎+天神本店",
+    "reviewtext": "天神南站步行2分鐘，超人氣沾麵，常見排隊35分鐘。",
+    "questions": []
+  },
+  {
+    "id": "r00018",
+    "placeid": "p10005",
+    "placename": null,
+    "source": "IG",
+    "date": null,
+    "overallrating": 4.0,
+    "googlemapsurl": "https://maps.google.com/?q=THE+FULL+FULL+HAKATA+福岡市博多区祇園町11-14",
+    "reviewtext": "近櫛田神社前駅，明太子法國麵包人氣店，需排隊約一小時。",
+    "questions": []
+  },
+  {
+    "id": "r00019",
+    "placeid": "p10006",
+    "placename": null,
+    "source": "IG",
+    "date": null,
+    "overallrating": 4.2,
+    "googlemapsurl": "https://maps.google.com/?q=福岡県福岡市博多区博多駅前2丁目9-28+やぐら",
+    "reviewtext": "博多站前隱藏老店，位於福岡商工會議所大樓B1食堂街，招牌炸豬排丼，亦有烏冬定食。開業逾50年。",
+    "questions": []
+  }
+]
