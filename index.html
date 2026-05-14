@@ -3,36 +3,56 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Fukuoka Map Test</title>
+<title>fukuoka-map-dashboard</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="./assets/leaflet.css" crossorigin="">
+<link rel="stylesheet" href="./assets/MarkerCluster.css">
+<link rel="stylesheet" href="./assets/MarkerCluster.Default.css">
 <style>
-html,body{margin:0;padding:0;background:#0f172a;color:#e2e8f0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif}
-body{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
-.wrap{max-width:720px;width:100%;background:#111827;border:1px solid #334155;border-radius:16px;padding:24px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
-h1{margin:0 0 16px;font-size:28px;line-height:1.2;color:#fbbf24}
-p{margin:0 0 12px;line-height:1.6}
-.code{margin-top:16px;padding:14px 16px;background:#0b1220;border:1px solid #334155;border-radius:12px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:14px;white-space:pre-wrap;word-break:break-word}
-.ok{display:inline-block;padding:6px 10px;border-radius:999px;background:#14532d;color:#dcfce7;font-weight:700;font-size:13px;margin-bottom:14px}
-.small{color:#94a3b8;font-size:14px}
+:root{--bg:#111827;--line:#253049;--text:#e5e7eb;--muted:#94a3b8;--accent:#f59e0b}*{box-sizing:border-box}html,body{margin:0;height:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang TC","Noto Sans CJK TC","Microsoft JhengHei",sans-serif;background:var(--bg);color:var(--text)}button,input{font:inherit}body{overflow:hidden}.app{display:grid;grid-template-rows:auto auto 1fr;height:100dvh}.top{padding:12px 14px;background:#172033;border-bottom:1px solid var(--line)}.top h1{margin:0;font-size:20px;color:#fbbf24}.top p{margin:4px 0 0;color:var(--muted);font-size:12px}.toolbar{display:flex;gap:8px;align-items:center;padding:10px 12px;border-bottom:1px solid var(--line);background:#141b2d;flex-wrap:wrap}.btn{background:#1f2937;color:#e5e7eb;border:1px solid #334155;border-radius:10px;padding:8px 12px;font-weight:600;cursor:pointer}.layout{display:grid;grid-template-columns:340px 1fr;min-height:0}.sidebar{border-right:1px solid var(--line);background:#111827;display:flex;flex-direction:column;min-height:0}.pane{padding:12px;border-bottom:1px solid var(--line)}.pane h2{margin:0 0 10px;font-size:14px;color:#e5e7eb}.search{width:100%;padding:10px 12px;border-radius:10px;border:1px solid #475569;background:#0b1220;color:#fff}.chips{display:flex;gap:8px;flex-wrap:wrap}.chip{padding:7px 10px;border-radius:999px;border:1px solid #64748b;background:#172033;color:#e5e7eb;font-size:13px;cursor:pointer}.chip.on{background:#334155;border-color:#94a3b8;color:#fff}.list{overflow:auto;padding:10px;display:flex;flex-direction:column;gap:10px}.card{border:1px solid #334155;background:#0b1220;border-radius:14px;padding:12px;cursor:pointer}.card h3{margin:0 0 8px;font-size:15px;color:#f8fafc;line-height:1.35}.meta{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}.badge{font-size:12px;border-radius:999px;padding:4px 8px;border:1px solid #475569;background:#1e293b;color:#e2e8f0}.rating{color:#ffe4e6;background:#4c1d28;border-color:#9f1239}.gr{color:#fef3c7;background:#3b2a12;border-color:#a16207}.empty{color:#cbd5e1;padding:18px;border:1px dashed #475569;border-radius:14px;text-align:center}.mapWrap{position:relative;min-height:0}.map{height:100%;width:100%}.toggle{position:absolute;left:56px;top:12px;z-index:760}.hint{position:absolute;left:12px;bottom:12px;z-index:500;background:rgba(15,23,42,.88);border:1px solid #334155;color:#cbd5e1;padding:10px 12px;border-radius:12px;font-size:12px;max-width:240px}.overlay{display:none}.custom-pin{background:transparent!important;border:none!important}.marker-cluster-small,.marker-cluster-medium,.marker-cluster-large{background:transparent}.marker-cluster div{width:38px;height:38px;margin-left:0;margin-top:0;border-radius:50%;background:#f59e0b;border:3px solid #fff;color:#111827;font:700 14px/32px sans-serif;box-shadow:0 4px 14px rgba(0,0,0,.35);text-align:center}@media(min-width:901px){.sidebar.hidden{display:flex!important}}@media(max-width:900px){.layout{grid-template-columns:1fr}.sidebar{position:absolute;left:0;top:93px;bottom:0;width:min(88vw,340px);z-index:780;box-shadow:0 8px 30px rgba(0,0,0,.35)}.sidebar.hidden{display:none!important}.overlay{display:none;position:absolute;inset:0;background:rgba(2,6,23,.42);z-index:740}.overlay.show{display:block}.hint{display:none}}
 </style>
 </head>
 <body>
-<div class="wrap">
-<div class="ok">STEP CLEAN HTML OK</div>
-<h1>全新 index.html 測試頁</h1>
-<p>如果你手機見到呢頁，代表 <strong>GitHub Pages、HTML、基本 CSS、基本 JavaScript</strong> 都正常，白畫面問題就唔喺最底層載入，而係你原本 app 內容或外部干擾造成。</p>
-<p class="small">呢頁冇用外部字型、冇用 Leaflet、冇用 JSON、冇用第三方 JS。</p>
-<div class="code" id="info">Loading...</div>
+<div class="app">
+<header class="top"><h1>福岡・北九州美食地圖</h1><p>手機切換修正版</p></header>
+<div class="toolbar"><button class="btn" id="toggleSide">☰ 地點列表</button></div>
+<div class="layout">
+<aside class="sidebar hidden" id="sidebar">
+<div class="pane"><h2>搜尋</h2><input id="search" class="search" placeholder="搜尋地點名稱、標籤、地區…"></div>
+<div class="pane"><h2>分類</h2><div class="chips" id="catChips"></div></div>
+<div class="pane"><h2>地區</h2><div class="chips" id="regionChips"></div></div>
+<div class="pane"><h2>價格</h2><div class="chips" id="priceChips"></div></div>
+<div class="list" id="list"></div>
+</aside>
+<main class="mapWrap"><div id="mapOverlay" class="overlay"></div><button class="btn toggle" id="toggleSide2">☰</button><div id="map" class="map"></div><div class="hint">手機版可用按鈕開關列表，點遮罩可關閉。</div></main>
 </div>
+</div>
+<script src="./assets/leaflet.js" crossorigin=""></script>
+<script src="./assets/leaflet.markercluster.js"></script>
 <script>
-(function(){
-  var info = document.getElementById('info');
-  var lines = [];
-  lines.push('Time: ' + new Date().toString());
-  lines.push('UA: ' + navigator.userAgent);
-  lines.push('Width: ' + window.innerWidth + 'px');
-  lines.push('Height: ' + window.innerHeight + 'px');
-  info.textContent = lines.join('\n');
-})();
+document.addEventListener('DOMContentLoaded',()=>{
+let placesDoc={places:[]},configDoc={categories:[],prices:[],regions:[],mapDefaults:{center:[33.5904,130.4017],zoom:12}};
+let selectedCat='all',selectedRegion='all',selectedPrice='all',q='';
+let map,layer;
+const el=id=>document.getElementById(id);
+const uniq=arr=>[...new Set((arr||[]).filter(Boolean))];
+const isMobile=()=>window.innerWidth<=900;
+const normPlace=p=>({...p,category:p.category||p.cuisine||'',ratings:p.ratings||{tabelog:p.tabelog??null,google:p.grating??null},tags:Array.isArray(p.tags)?p.tags:[],region:p.region||'',price:p.price||'',source:p.source||''});
+const iconMap={'拉麵':'🍜','博多料理':'🍢','居酒屋':'🍺','天婦羅':'🍤','咖啡':'☕','住宿':'🏨','壽司':'🍣','景點':'📍','甜品':'🍰','燒肉':'🥩','麵包':'🥐','烏冬':'🥢','丼飯':'🍚'};
+function markerHtml(category){return L.divIcon({html:`<div style="width:28px;height:28px;border-radius:50%;background:#f59e0b;border:3px solid #fff;box-shadow:0 2px 10px rgba(0,0,0,.35);display:flex;align-items:center;justify-content:center;font-size:14px;line-height:1">${iconMap[category]||'📍'}</div>`,className:'custom-pin',iconSize:[28,28],iconAnchor:[14,14],popupAnchor:[0,-12]})}
+async function loadJson(path,fallback){try{const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw new Error(path);return await r.json()}catch{return fallback}}
+function filters(p){const hay=[p.name,p.region,p.category,p.source,(p.tags||[]).join(' ')].join(' ').toLowerCase();return (selectedCat==='all'||p.category===selectedCat)&&(selectedRegion==='all'||p.region===selectedRegion)&&(selectedPrice==='all'||p.price===selectedPrice)&&(!q||hay.includes(q))}
+function syncSidebar(){const hidden=el('sidebar').classList.contains('hidden');if(isMobile()){el('mapOverlay').classList.toggle('show',!hidden)}else{el('sidebar').classList.remove('hidden');el('mapOverlay').classList.remove('show')}}
+function openSidebar(){el('sidebar').classList.remove('hidden');syncSidebar();setTimeout(()=>map&&map.invalidateSize(),220)}
+function closeSidebar(){if(isMobile()){el('sidebar').classList.add('hidden');syncSidebar();setTimeout(()=>map&&map.invalidateSize(),220)}}
+function toggleSidebar(){if(isMobile()){el('sidebar').classList.toggle('hidden');syncSidebar()}setTimeout(()=>map&&map.invalidateSize(),220)}
+function renderChips(id,values,selected,setter){const box=el(id);box.innerHTML='';[['all','全部'],...values.map(v=>[v,v])].forEach(([val,label])=>{const b=document.createElement('button');b.className='chip'+(selected===val?' on':'');b.textContent=label;b.onclick=()=>{setter(val);renderAll();if(isMobile())closeSidebar()};box.appendChild(b)})}
+function renderList(items){const box=el('list');box.innerHTML='';if(!items.length){box.innerHTML='<div class="empty">0 個地點</div>';return}items.forEach(p=>{const d=document.createElement('div');d.className='card';d.innerHTML=`<h3>${p.name||''}</h3><div class="meta"><span class="badge">${p.category||''}</span><span class="badge">${p.region||''}</span>${p.price?`<span class="badge">${p.price}</span>`:''}${p.ratings?.tabelog?`<span class="badge rating">Tabelog ${p.ratings.tabelog}</span>`:''}${p.ratings?.google?`<span class="badge gr">Google ${p.ratings.google}</span>`:''}</div><div style="color:#cbd5e1;font-size:13px">${(p.tags||[]).join(' · ')}</div>`;d.onclick=()=>{if(map&&Number.isFinite(+p.lat)&&Number.isFinite(+p.lng)){map.flyTo([+p.lat,+p.lng],16,{duration:.5});if(isMobile())closeSidebar()}};box.appendChild(d)})}
+function renderMap(items){if(layer){layer.clearLayers()}else{layer=L.markerClusterGroup({showCoverageOnHover:false,spiderfyOnMaxZoom:true,disableClusteringAtZoom:15,maxClusterRadius:42});map.addLayer(layer)}items.forEach(p=>{if(!Number.isFinite(+p.lat)||!Number.isFinite(+p.lng))return;L.marker([+p.lat,+p.lng],{icon:markerHtml(p.category)}).bindPopup(`<b>${p.name||''}</b><br>${p.category||''} · ${p.region||''}`).addTo(layer)});if(layer.getLayers().length){map.fitBounds(layer.getBounds().pad(0.15))}}
+function renderAll(){const raw=(placesDoc.places||[]).map(normPlace);const items=raw.filter(filters);renderChips('catChips',uniq(configDoc.categories?.length?configDoc.categories:raw.map(p=>p.category)),selectedCat,v=>selectedCat=v);renderChips('regionChips',uniq(configDoc.regions?.length?configDoc.regions:raw.map(p=>p.region)),selectedRegion,v=>selectedRegion=v);renderChips('priceChips',uniq(configDoc.prices?.length?configDoc.prices:raw.map(p=>p.price)),selectedPrice,v=>selectedPrice=v);renderList(items);renderMap(items);syncSidebar()}
+async function boot(){placesDoc=await loadJson('./places.json',{places:[]});configDoc=await loadJson('./config.json',configDoc);if(Array.isArray(placesDoc))placesDoc={places:placesDoc};map=L.map('map',{zoomControl:true}).setView(configDoc.mapDefaults?.center||[33.5904,130.4017],configDoc.mapDefaults?.zoom||12);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap'}).addTo(map);el('search').addEventListener('input',e=>{q=e.target.value.trim().toLowerCase();renderAll()});el('toggleSide').onclick=toggleSidebar;el('toggleSide2').onclick=toggleSidebar;el('mapOverlay').onclick=closeSidebar;window.addEventListener('resize',syncSidebar);if(isMobile())el('sidebar').classList.add('hidden');renderAll()}
+boot();
+});
 </script>
 </body>
 </html>
