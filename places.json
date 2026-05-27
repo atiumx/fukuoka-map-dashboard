@@ -11,12 +11,7 @@
     "tabelog": 3.82,
     "grating": 4.1,
     "note": "24小時營業，豚骨拉麵名店，建議避開正午高峰",
-    "tags": [
-      "拉麵",
-      "豚骨",
-      "博多",
-      "24小時"
-    ],
+    "tags": ["拉麵","豚骨","博多","24小時"],
     "openingHours": "24小時營業",
     "closedDays": [],
     "hoursSource": "官方/Tabelog",
@@ -41,17 +36,9 @@
     "tabelog": 3.45,
     "grating": 4.0,
     "note": "博多屋台文化體驗，必試明太子料理。營業時間及定休日因屋台各異，部分週日及週三休息",
-    "tags": [
-      "博多料理",
-      "屋台",
-      "明太子",
-      "博多"
-    ],
+    "tags": ["博多料理","屋台","明太子","博多"],
     "openingHours": "18:00-24:00",
-    "closedDays": [
-      0,
-      3
-    ],
+    "closedDays": [0, 3],
     "hoursSource": "GoFukuoka",
     "hoursVerified": true,
     "links": {
@@ -74,16 +61,9 @@
     "tabelog": 3.56,
     "grating": 4.2,
     "note": "新鮮玄界灘海鮮，推薦烤牡蠣同生魚片",
-    "tags": [
-      "居酒屋",
-      "海鮮",
-      "牡蠣",
-      "博多"
-    ],
+    "tags": ["居酒屋","海鮮","牡蠣","博多"],
     "openingHours": "11:30-14:00, 17:30-22:30",
-    "closedDays": [
-      1
-    ],
+    "closedDays": [1],
     "hoursSource": "福岡魚市場/博多漁家磯貝天神店",
     "hoursVerified": true,
     "links": {
@@ -106,12 +86,7 @@
     "tabelog": 3.55,
     "grating": 4.0,
     "note": "長濱豚骨拉麵發祥地，超嫩叉燒",
-    "tags": [
-      "拉麵",
-      "豚骨",
-      "長濱",
-      "老店"
-    ],
+    "tags": ["拉麵","豚骨","長濱","老店"],
     "openingHours": "06:00-25:45",
     "closedDays": [],
     "hoursSource": "Tabelog",
@@ -136,12 +111,7 @@
     "tabelog": 3.88,
     "grating": 4.4,
     "note": "立食天婦羅，炸穴子魚必試，性價比極高",
-    "tags": [
-      "天婦羅",
-      "立食",
-      "博多",
-      "午餐"
-    ],
+    "tags": ["天婦羅","立食","博多","午餐"],
     "openingHours": "11:00-22:00（週五週六至23:00）",
     "closedDays": [],
     "hoursSource": "Canal City/Hot Pepper",
@@ -166,12 +136,7 @@
     "tabelog": 3.62,
     "grating": 4.3,
     "note": "小眾精品咖啡店，拿鐵藝術感強",
-    "tags": [
-      "咖啡",
-      "精品咖啡",
-      "天神",
-      "下午茶"
-    ],
+    "tags": ["咖啡","精品咖啡","天神","下午茶"],
     "links": {
       "maps": "https://maps.google.com/?q=福岡精品咖啡",
       "ig": "https://www.instagram.com/",
@@ -192,11 +157,7 @@
     "tabelog": null,
     "grating": 4.1,
     "note": "博多站直通，交通便利",
-    "tags": [
-      "住宿",
-      "博多站",
-      "方便"
-    ],
+    "tags": ["住宿","博多站","方便"],
     "openingHours": "入住14:00，退房11:00",
     "closedDays": [],
     "hoursSource": "Tabelog/官方",
@@ -221,12 +182,7 @@
     "tabelog": 3.72,
     "grating": 4.2,
     "note": "玄界灘直送魚獲，午市超值套餐。營業至21:30 LO 21:00",
-    "tags": [
-      "壽司",
-      "海鮮",
-      "博多",
-      "午餐"
-    ],
+    "tags": ["壽司","海鮮","博多","午餐"],
     "openingHours": "11:00-21:30",
     "closedDays": [],
     "hoursSource": "博多1番街",
@@ -251,15 +207,9 @@
     "tabelog": 3.11,
     "grating": null,
     "note": "長崎站前老牌喫茶店，早上 7 點開門，午餐預算約 〜¥999。",
-    "tags": [
-      "早餐",
-      "喫茶店",
-      "車站附近"
-    ],
+    "tags": ["早餐","喫茶店","車站附近"],
     "openingHours": "07:00-21:00",
-    "closedDays": [
-      0
-    ],
+    "closedDays": [0],
     "hoursSource": "Tabelog/Hot Pepper/Retty",
     "hoursVerified": true,
     "links": {
@@ -282,10 +232,7 @@
     "tabelog": null,
     "grating": null,
     "note": "北九州市象徵城堡，福岡縣內唯一保留天守閣的城，作為觀光景點相當有名。",
-    "tags": [
-      "城堡",
-      "歷史建築"
-    ],
+    "tags": ["城堡","歷史建築"],
     "openingHours": "4-10月 09:00-20:00；11-3月 09:00-19:00（入場截至關閉前30分鐘）",
     "closedDays": [],
     "hoursSource": "官方/Culpo Kitaq",
@@ -310,10 +257,7 @@
     "tabelog": null,
     "grating": null,
     "note": "長崎燒菓子專門店，前身為老牌洋菓子店「ノスドール」，主打罐裝蛋糕與燒菓子。",
-    "tags": [
-      "燒菓子",
-      "伴手禮"
-    ],
+    "tags": ["燒菓子","伴手禮"],
     "links": {
       "maps": "https://www.google.com/maps/place/ママン·ガトー(%E6%A0%AA)+ノスドール/@32.746585,129.8808539,17z",
       "ig": null,
@@ -334,11 +278,7 @@
     "tabelog": null,
     "grating": null,
     "note": "透過 VR、4K 立體劇場等數位內容還原軍艦島生活與禁入區域，是長崎市松が枝町的室內觀光點。",
-    "tags": [
-      "博物館",
-      "軍艦島",
-      "室內"
-    ],
+    "tags": ["博物館","軍艦島","室內"],
     "links": {
       "maps": "https://www.google.com/maps/place/軍艦島デジタル博物館/@32.7360433,129.869209,17z",
       "ig": null,
@@ -359,10 +299,7 @@
     "tabelog": null,
     "grating": null,
     "note": "博多站南側人氣炭火燒肉店，主打九州產黑毛和牛，價格中高，晚市建議預約。",
-    "tags": [
-      "炭火燒肉",
-      "和牛"
-    ],
+    "tags": ["炭火燒肉","和牛"],
     "links": {
       "maps": "https://www.google.com/maps/place/肉屋肉一+博多店/@33.5862991,130.4218915,17z",
       "ig": null,
@@ -383,13 +320,7 @@
     "tabelog": 3.4,
     "grating": 4.1,
     "note": "天神人氣烘焙店，主打麵包與甜點。近天神駅。",
-    "tags": [
-      "麵包",
-      "甜點",
-      "烘焙",
-      "天神",
-      "可外帶"
-    ],
+    "tags": ["麵包","甜點","烘焙","天神","可外帶"],
     "links": {
       "maps": "https://maps.google.com/?q=HEART+BREAD+ANTIQUE+福岡天神店",
       "ig": "https://www.instagram.com/heart_bread_antique/",
@@ -410,13 +341,7 @@
     "tabelog": 3.58,
     "grating": 4.3,
     "note": "中洲川端名物和菓子店，招牌鶴乃子，適合當手信。近中洲川端駅。",
-    "tags": [
-      "甜品",
-      "和菓子",
-      "手信",
-      "中洲川端",
-      "可外帶"
-    ],
+    "tags": ["甜品","和菓子","手信","中洲川端","可外帶"],
     "links": {
       "maps": "https://maps.google.com/?q=石村萬盛堂+本店+福岡",
       "ig": "https://www.instagram.com/ishimuramanseido/",
@@ -437,13 +362,7 @@
     "tabelog": 3.78,
     "grating": 4.2,
     "note": "博多站步行圈，招牌明太烏冬。營業至16:00，定休日不固定請參考官方社交媒體",
-    "tags": [
-      "烏冬",
-      "明太子",
-      "博多",
-      "午餐",
-      "排隊"
-    ],
+    "tags": ["烏冬","明太子","博多","午餐","排隊"],
     "openingHours": "08:00-16:00",
     "closedDays": null,
     "irregularClosed": true,
@@ -469,13 +388,7 @@
     "tabelog": 3.66,
     "grating": 4.1,
     "note": "天神南站步行2分鐘，超人氣沾麵，常見排隊35分鐘。",
-    "tags": [
-      "拉麵",
-      "沾麵",
-      "天神南",
-      "晚餐",
-      "排隊"
-    ],
+    "tags": ["拉麵","沾麵","天神南","晚餐","排隊"],
     "openingHours": "平日 10:00-22:00；週末及假日 09:45-22:00",
     "closedDays": [],
     "hoursSource": "官方",
@@ -500,13 +413,7 @@
     "tabelog": 3.55,
     "grating": 4.0,
     "note": "近櫛田神社前駅，明太子法國麵包人氣店，需排隊約一小時。",
-    "tags": [
-      "麵包",
-      "明太子法包",
-      "博多",
-      "可外帶",
-      "排隊"
-    ],
+    "tags": ["麵包","明太子法包","博多","可外帶","排隊"],
     "links": {
       "maps": "https://maps.google.com/?q=THE+FULL+FULL+HAKATA+福岡市博多区祇園町11-14",
       "ig": "https://www.instagram.com/the_fullfull_hakata/",
@@ -527,18 +434,9 @@
     "tabelog": 3.7,
     "grating": 4.2,
     "note": "博多站前隱藏老店，位於福岡商工會議所大樓B1食堂街，招牌炸豬排丼，亦有烏冬定食。開業逾50年。",
-    "tags": [
-      "丼飯",
-      "炸豬排丼",
-      "烏冬",
-      "博多",
-      "老店",
-      "隱藏版"
-    ],
+    "tags": ["丼飯","炸豬排丼","烏冬","博多","老店","隱藏版"],
     "openingHours": "週一至週五 11:30-18:30；週六 11:30-16:00",
-    "closedDays": [
-      0
-    ],
+    "closedDays": [0],
     "holidayClosed": true,
     "hoursSource": "Hot Pepper",
     "hoursVerified": true,
@@ -566,13 +464,7 @@
     "hoursSource": "官方/Tabelog",
     "hoursVerified": true,
     "note": "博多站步行圈泡系豚骨名店，總本店。",
-    "tags": [
-      "拉麵",
-      "豚骨",
-      "泡系",
-      "博多",
-      "排隊"
-    ],
+    "tags": ["拉麵","豚骨","泡系","博多","排隊"],
     "links": {
       "maps": "https://maps.google.com/?q=博多一幸舍+総本店",
       "ig": null,
@@ -598,14 +490,7 @@
     "hoursSource": "Tabelog",
     "hoursVerified": true,
     "note": "泡系濃厚豚骨代表店，連續多年百名店。",
-    "tags": [
-      "拉麵",
-      "豚骨",
-      "泡系",
-      "博多",
-      "百名店",
-      "排隊"
-    ],
+    "tags": ["拉麵","豚骨","泡系","博多","百名店","排隊"],
     "links": {
       "maps": "https://maps.google.com/?q=博多一双+博多駅東本店",
       "ig": null,
@@ -631,13 +516,7 @@
     "hoursSource": "店舖資訊整理",
     "hoursVerified": false,
     "note": "老牌濃厚豚骨，渡辺通步行圈，營業資料可能變動。",
-    "tags": [
-      "拉麵",
-      "豚骨",
-      "老店",
-      "天神南",
-      "排隊"
-    ],
+    "tags": ["拉麵","豚骨","老店","天神南","排隊"],
     "links": {
       "maps": "https://maps.google.com/?q=博多だるま+総本店",
       "ig": null,
@@ -658,19 +537,11 @@
     "tabelog": 3.57,
     "grating": 4.1,
     "openingHours": "10:00-03:00",
-    "closedDays": [
-      0
-    ],
+    "closedDays": [0],
     "hoursSource": "店舖資訊整理",
     "hoursVerified": false,
     "note": "天神人氣豚骨拉麵，湯頭相對清爽，炒飯亦受歡迎。",
-    "tags": [
-      "拉麵",
-      "豚骨",
-      "天神",
-      "人氣店",
-      "炒飯"
-    ],
+    "tags": ["拉麵","豚骨","天神","人氣店","炒飯"],
     "links": {
       "maps": "https://maps.google.com/?q=博多らーめん+ShinShin+天神本店",
       "ig": null,
@@ -691,19 +562,11 @@
     "tabelog": 3.64,
     "grating": 4.1,
     "openingHours": "週二至六 11:00-14:30, 17:00-23:30；週日 11:00-15:00",
-    "closedDays": [
-      1
-    ],
+    "closedDays": [1],
     "hoursSource": "官方",
     "hoursVerified": true,
     "note": "東比惠站旁泡系濃厚豚骨，離博多站一站地鐵。",
-    "tags": [
-      "拉麵",
-      "豚骨",
-      "泡系",
-      "博多",
-      "東比惠"
-    ],
+    "tags": ["拉麵","豚骨","泡系","博多","東比惠"],
     "links": {
       "maps": "https://maps.google.com/?q=博多一成一代",
       "ig": null,
@@ -729,13 +592,7 @@
     "hoursSource": "Tabelog",
     "hoursVerified": true,
     "note": "久留米系呼び戻し豚骨名店，天神南步行圈。",
-    "tags": [
-      "拉麵",
-      "豚骨",
-      "久留米系",
-      "天神",
-      "今泉"
-    ],
+    "tags": ["拉麵","豚骨","久留米系","天神","今泉"],
     "links": {
       "maps": "https://maps.google.com/?q=大砲ラーメン+天神今泉店",
       "ig": null,
